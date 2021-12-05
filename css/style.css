@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header button {
+    margin-left: auto;
+}
+
+.logo {
+    color: #57AD56;
+    padding-left: 4px;
+    font-weight: 300;
+}
+
+.search_food {
+    min-width: 100%;
+    padding: 56px 0;
+}
+
+.search_food input {
+    border: none;
+    border-bottom: 1px solid #757575;
+    opacity: 0.7;
+}
+
+.restourans .title h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.cards {
+    margin-top: 16px;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.card {
+    width: 25rem !important;
+    margin-top: 36px;
+}
+
+.card-body p {
+    margin-bottom: 4px;
+    color: #1D1D1D;
+}
+
+.card-body p:nth-child(2),
+.jumbo .res_card .info > p {
+    font-size: 14px;
+    color: #626262;
+}
+
+.card-body p:last-child {
+    font-size: 13px;
+    color: #1D1D1D;
+}
+
+footer {
+    background: #262626;
+    margin-top: 68px;
+    margin-bottom: -48px;
+    padding-left: 10px;
+}
+
+footer .container {
+    padding: 60px 0 40px;
+}
+
+
+footer .log {
+    font-size: 28px;
+    padding-bottom: 35px;
+}
+
+footer hr {
+    border: 1px solid #fff;
+}
+
+footer button {
+    background: #262626 !important;
+    font-size: 13px !important;
+    margin-bottom: 33px;
+}
+
+.mobile_app {
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    margin: 30px 20px;
+}
+
+.mobile_app img {
+    width: 135px;
+    height: 40px;
+}
+
+.links {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.good_besh {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.good_besh span {
+    color: #49A144;
+}
+
+.upper {
+    background-color: #59BD5A;
+    padding: 27px;
+    font-size: 20px;
+}
+
+/*-- Pushkin --*/
+
+.jumbo {
+    background: url("../images/pushkin/jumbo.png");
+    background-size: cover;
+}
+
+.jumbo .block {
+    margin: 80px auto;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.jumbo .res_card {
+    padding: 38px 38px 46px 38px;
+}
+
+.jumbo .title {
+    text-align: center;
+    font-weight: 400px;
+    font-size: 36px;
+}
+
+.jumbo .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.jumbo .time {
+    margin-top: 58px;
+    background: #1D1D1D;
+    color: #fff;
+    border-radius: 16px;
+}
+
+.jumbo .time p {
+    padding: 8px 16px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.jumbo .res_card .info > p {
+    margin-top: 62px;
+}
+
+/*---- nav bar ----*/
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar .nav-link {
+    color: #626262;
+}
+
+.navbar .active {
+    color: #327430 !important;
+}
+
+/*---- snacks ------*/
+
+.snacks .title {
+    margin-top: 56px;
+    margin-bottom: 36px;
+    font-size: 22px;
+}
+
+.snack_card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    margin-bottom: 40px;
+}
+
+.snack_card .info {
+    margin: 16px 0 16px 16px
+}
+
+.snack_card .info p:first-child {
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.snack_card .info p:nth-child(2) {
+    line-height: 21px;
+    font-size: 13px;
+    color: #626262;
+}
+
+.snack_card .info p:last-child {
+    line-height: 21px;
+    font-size: 15px;
+    margin-top: 58px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
